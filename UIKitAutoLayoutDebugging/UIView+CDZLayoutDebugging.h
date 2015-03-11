@@ -1,7 +1,7 @@
 @import Foundation;
 @import UIKit.UIView;
 
-static inline NSString *CDZLayoutDebuggingIdentifierSelectorString() {
+static NSString *CDZLayoutDebuggingIdentifierSelectorString() {
 #if DEBUG
     return @"_setLayoutDebuggingIdentifier:";
 #else
