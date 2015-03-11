@@ -12,6 +12,8 @@
 		93545B371AA91140006E72F3 /* UIView+CDZLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 93545B351AA91140006E72F3 /* UIView+CDZLayoutDebugging.m */; };
 		93545B3A1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */; };
 		93545B3B1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */; };
+		9362FBC71AB0CF56004741F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362FBC61AB0CF56004741F4 /* Foundation.framework */; };
+		9362FBC91AB0CF5B004741F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362FBC81AB0CF5B004741F4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		93545B351AA91140006E72F3 /* UIView+CDZLayoutDebugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDZLayoutDebugging.m"; sourceTree = "<group>"; };
 		93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+CDZLayoutDebugging.h"; sourceTree = "<group>"; };
 		93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+CDZLayoutDebugging.m"; sourceTree = "<group>"; };
+		9362FBC61AB0CF56004741F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9362FBC81AB0CF5B004741F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9362FBC91AB0CF5B004741F4 /* UIKit.framework in Frameworks */,
+				9362FBC71AB0CF56004741F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,8 @@
 				93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */,
 				93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */,
 				9348167B1AA8F18200E89A5E /* Supporting Files */,
+				9362FBC81AB0CF5B004741F4 /* UIKit.framework */,
+				9362FBC61AB0CF56004741F4 /* Foundation.framework */,
 			);
 			path = UIKitAutoLayoutDebugging;
 			sourceTree = "<group>";
@@ -79,9 +87,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9348167E1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h in Headers */,
 				93545B361AA91140006E72F3 /* UIView+CDZLayoutDebugging.h in Headers */,
 				93545B3A1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */,
-				9348167E1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
