@@ -16,7 +16,7 @@ pod 'CDZQRScanningViewController'
 
 ### Carthage
 
-Add the dependency to your `Cartfile`:
+Add the dependency to your `Cartfile`, and follow the directions [from Carthage's README](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 ```
 github "cdzombak/CDZUIKitAutoLayoutDebugging"
