@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9348167E1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9348167D1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93545B361AA91140006E72F3 /* UIView+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B341AA91140006E72F3 /* UIView+CDZLayoutDebugging.h */; };
+		93545B361AA91140006E72F3 /* UIView+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B341AA91140006E72F3 /* UIView+CDZLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93545B371AA91140006E72F3 /* UIView+CDZLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 93545B351AA91140006E72F3 /* UIView+CDZLayoutDebugging.m */; };
-		93545B3A1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */; };
+		93545B3A1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93545B3B1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */; };
 		9362FBC71AB0CF56004741F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362FBC61AB0CF56004741F4 /* Foundation.framework */; };
 		9362FBC91AB0CF5B004741F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362FBC81AB0CF5B004741F4 /* UIKit.framework */; };
