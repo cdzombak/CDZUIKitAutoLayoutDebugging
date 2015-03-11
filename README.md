@@ -8,7 +8,7 @@ See the headers for insight into the methods provided: [NSLayoutConstraint+CDZLa
 
 ### CocoaPods
 
-Add the dependency to your `Podfile`:
+Add the dependency to your `Podfile`, and run `pod install`:
 
 ```
 pod 'CDZQRScanningViewController'
