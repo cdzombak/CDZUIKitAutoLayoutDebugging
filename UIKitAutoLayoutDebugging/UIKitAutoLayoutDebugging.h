@@ -1,3 +1,5 @@
+@import Foundation;
+
 //! Project version number for UIKitAutoLayoutDebugging.
 FOUNDATION_EXPORT double UIKitAutoLayoutDebuggingVersionNumber;
 
