@@ -13,7 +13,7 @@ Note tht you **must** set the preprocessor macro `DEBUG=1` for your Debug config
 Add the dependency to your `Podfile`, and run `pod install`:
 
 ```
-pod 'CDZQRScanningViewController'
+pod 'CDZUIKitAutoLayoutDebugging'
 ```
 
 ### Carthage
