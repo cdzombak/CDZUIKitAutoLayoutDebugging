@@ -32,7 +32,7 @@ github "cdzombak/CDZUIKitAutoLayoutDebugging"
 
 ## License
 
-![MIT license](https://img.shields.io/cocoapods/l/CDZUIKitAutoLayoutDebugging.svg?style=flat)
+[![MIT license](https://img.shields.io/cocoapods/l/CDZUIKitAutoLayoutDebugging.svg?style=flat)](LICENSE)
 
 MIT. See `LICENSE` included in this repo.
 
