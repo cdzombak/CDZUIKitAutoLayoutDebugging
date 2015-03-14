@@ -1,3 +1,5 @@
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![CocoaPods compatible](https://img.shields.io/cocoapods/v/CDZUIKitAutoLayoutDebugging.svg?style=flat) ![](https://img.shields.io/cocoapods/p/CDZUIKitAutoLayoutDebugging.svg?style=flat)
+
 # CDZUIKitAutoLayoutDebugging
 
 Tools for easier Auto Layout debugging on iOS 7+.
@@ -29,6 +31,8 @@ github "cdzombak/CDZUIKitAutoLayoutDebugging"
 `CDZUIKitAutoLayoutDebugging` is tested on iOS 7 and 8.
 
 ## License
+
+![MIT license](https://img.shields.io/cocoapods/l/CDZUIKitAutoLayoutDebugging.svg?style=flat)
 
 MIT. See `LICENSE` included in this repo.
 
