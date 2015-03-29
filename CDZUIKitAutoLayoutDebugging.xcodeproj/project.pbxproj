@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9348167E1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9348167D1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93545B361AA91140006E72F3 /* UIView+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B341AA91140006E72F3 /* UIView+CDZLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93545B3A1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93545B3B1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */; };
 		9362FBC71AB0CF56004741F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362FBC61AB0CF56004741F4 /* Foundation.framework */; };
 		9362FBC91AB0CF5B004741F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362FBC81AB0CF5B004741F4 /* UIKit.framework */; };
+		938371A31AC8A478001B52FA /* CDZUIKitAutoLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9383719F1AC8A478001B52FA /* CDZUIKitAutoLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938371A41AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 938371A01AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938371A51AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 938371A11AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.m */; };
+		938371A61AC8A478001B52FA /* UIView+CDZLayoutDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 938371A21AC8A478001B52FA /* UIView+CDZLayoutDebugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		934816781AA8F18200E89A5E /* UIKitAutoLayoutDebugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitAutoLayoutDebugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9348167C1AA8F18200E89A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9348167D1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitAutoLayoutDebugging.h; sourceTree = "<group>"; };
-		93545B341AA91140006E72F3 /* UIView+CDZLayoutDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CDZLayoutDebugging.h"; sourceTree = "<group>"; };
-		93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+CDZLayoutDebugging.h"; sourceTree = "<group>"; };
-		93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+CDZLayoutDebugging.m"; sourceTree = "<group>"; };
+		934816781AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDZUIKitAutoLayoutDebugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9348167C1AA8F18200E89A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = CDZUIKitAutoLayoutDebugging/Info.plist; sourceTree = "<group>"; };
 		9362FBC61AB0CF56004741F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9362FBC81AB0CF5B004741F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9383719F1AC8A478001B52FA /* CDZUIKitAutoLayoutDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDZUIKitAutoLayoutDebugging.h; path = CDZUIKitAutoLayoutDebugging/CDZUIKitAutoLayoutDebugging.h; sourceTree = SOURCE_ROOT; };
+		938371A01AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+CDZLayoutDebugging.h"; path = "CDZUIKitAutoLayoutDebugging/NSLayoutConstraint+CDZLayoutDebugging.h"; sourceTree = SOURCE_ROOT; };
+		938371A11AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+CDZLayoutDebugging.m"; path = "CDZUIKitAutoLayoutDebugging/NSLayoutConstraint+CDZLayoutDebugging.m"; sourceTree = SOURCE_ROOT; };
+		938371A21AC8A478001B52FA /* UIView+CDZLayoutDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CDZLayoutDebugging.h"; path = "CDZUIKitAutoLayoutDebugging/UIView+CDZLayoutDebugging.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		9348166E1AA8F18200E89A5E = {
 			isa = PBXGroup;
 			children = (
-				9348167A1AA8F18200E89A5E /* UIKitAutoLayoutDebugging */,
+				9348167A1AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging */,
 				934816791AA8F18200E89A5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,22 +50,23 @@
 		934816791AA8F18200E89A5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				934816781AA8F18200E89A5E /* UIKitAutoLayoutDebugging.framework */,
+				934816781AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9348167A1AA8F18200E89A5E /* UIKitAutoLayoutDebugging */ = {
+		9348167A1AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging */ = {
 			isa = PBXGroup;
 			children = (
-				9348167D1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h */,
-				93545B341AA91140006E72F3 /* UIView+CDZLayoutDebugging.h */,
-				93545B381AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h */,
-				93545B391AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m */,
+				9383719F1AC8A478001B52FA /* CDZUIKitAutoLayoutDebugging.h */,
+				938371A01AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.h */,
+				938371A11AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.m */,
+				938371A21AC8A478001B52FA /* UIView+CDZLayoutDebugging.h */,
 				9348167B1AA8F18200E89A5E /* Supporting Files */,
 				9362FBC81AB0CF5B004741F4 /* UIKit.framework */,
 				9362FBC61AB0CF56004741F4 /* Foundation.framework */,
 			);
+			name = CDZUIKitAutoLayoutDebugging;
 			path = UIKitAutoLayoutDebugging;
 			sourceTree = "<group>";
 		};
@@ -84,18 +85,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9348167E1AA8F18200E89A5E /* UIKitAutoLayoutDebugging.h in Headers */,
-				93545B361AA91140006E72F3 /* UIView+CDZLayoutDebugging.h in Headers */,
-				93545B3A1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */,
+				938371A31AC8A478001B52FA /* CDZUIKitAutoLayoutDebugging.h in Headers */,
+				938371A41AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.h in Headers */,
+				938371A61AC8A478001B52FA /* UIView+CDZLayoutDebugging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		934816771AA8F18200E89A5E /* UIKitAutoLayoutDebugging */ = {
+		934816771AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9348168E1AA8F18200E89A5E /* Build configuration list for PBXNativeTarget "UIKitAutoLayoutDebugging" */;
+			buildConfigurationList = 9348168E1AA8F18200E89A5E /* Build configuration list for PBXNativeTarget "CDZUIKitAutoLayoutDebugging" */;
 			buildPhases = (
 				934816731AA8F18200E89A5E /* Sources */,
 				934816741AA8F18200E89A5E /* Frameworks */,
@@ -106,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = UIKitAutoLayoutDebugging;
+			name = CDZUIKitAutoLayoutDebugging;
 			productName = UIKitAutoLayoutDebugging;
-			productReference = 934816781AA8F18200E89A5E /* UIKitAutoLayoutDebugging.framework */;
+			productReference = 934816781AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 934816721AA8F18200E89A5E /* Build configuration list for PBXProject "UIKitAutoLayoutDebugging" */;
+			buildConfigurationList = 934816721AA8F18200E89A5E /* Build configuration list for PBXProject "CDZUIKitAutoLayoutDebugging" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				934816771AA8F18200E89A5E /* UIKitAutoLayoutDebugging */,
+				934816771AA8F18200E89A5E /* CDZUIKitAutoLayoutDebugging */,
 			);
 		};
 /* End PBXProject section */
@@ -157,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93545B3B1AA91153006E72F3 /* NSLayoutConstraint+CDZLayoutDebugging.m in Sources */,
+				938371A51AC8A478001B52FA /* NSLayoutConstraint+CDZLayoutDebugging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +281,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIKitAutoLayoutDebugging/Info.plist;
+				INFOPLIST_FILE = CDZUIKitAutoLayoutDebugging/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CDZUIKitAutoLayoutDebugging;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -297,11 +298,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIKitAutoLayoutDebugging/Info.plist;
+				INFOPLIST_FILE = CDZUIKitAutoLayoutDebugging/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CDZUIKitAutoLayoutDebugging;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -309,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		934816721AA8F18200E89A5E /* Build configuration list for PBXProject "UIKitAutoLayoutDebugging" */ = {
+		934816721AA8F18200E89A5E /* Build configuration list for PBXProject "CDZUIKitAutoLayoutDebugging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9348168C1AA8F18200E89A5E /* Debug */,
@@ -318,7 +319,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9348168E1AA8F18200E89A5E /* Build configuration list for PBXNativeTarget "UIKitAutoLayoutDebugging" */ = {
+		9348168E1AA8F18200E89A5E /* Build configuration list for PBXNativeTarget "CDZUIKitAutoLayoutDebugging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9348168F1AA8F18200E89A5E /* Debug */,
