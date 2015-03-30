@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "CDZUIKitAutoLayoutDebugging"
-  s.version = "0.0.7"
+  s.version = "0.0.8"
   s.summary = "Tools for easier Auto Layout debugging"
 
   s.description = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, "7.0"
 
   s.source = { :git => "https://github.com/cdzombak/CDZUIKitAutoLayoutDebugging.git", :tag => s.version.to_s }
-  s.source_files = "UIKitAutoLayoutDebugging/*.{h,m}"
+  s.source_files = "CDZUIKitAutoLayoutDebugging/*.{h,m}"
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true
 end
